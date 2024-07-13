@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Container">
+        <form id="Form">
+            <input type="text" placeholder="Enter City">
+            <button id="Submit">Get Weather</button>
+        </form>
+        <div id="Card">
+            <h1 class="DisplayNone bebas-neue-regular" id="CityDisplay"></h1>
+            <p class="DisplayNone bebas-neue-regular" id="Temp"></p>
+            <p class="DisplayNone bebas-neue-regular" id="HumidityDisplay"></p>
+            <p class="DisplayNone bebas-neue-regular" id="PredictionDisplay"></p>
+            <p class="DisplayNone bebas-neue-regular" id="weather-emoji"></p>
+            <p class="DisplayNone bebas-neue-regular" id="ErrorDisplay"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
